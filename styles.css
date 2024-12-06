@@ -1,0 +1,84 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container Styling */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Form Heading */
+.container h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #444;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+/* Labels */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Input Fields */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+/* Input Focus */
+input:focus, select:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .container {
+      margin: 20px;
+      padding: 15px;
+  }
+
+  button {
+      width: 100%;
+      padding: 12px;
+  }
+}
